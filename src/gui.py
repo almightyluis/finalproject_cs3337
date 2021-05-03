@@ -33,7 +33,7 @@ topLabel = Label(root, text="GUI Project created by...")
 trainBtn = Button(root, text='Training Folder', command=openTrainFile)
 trainBtnStart = Button(root, text='Start Training..', command=beginTraining)
 
-
+# pack buttons onto the gui and begin the root.mainloop()
 trainBtnStart.pack(side=BOTTOM, pady=10,)
 topLabel.pack(pady=5,)
 btn = Button(root, text='Image To Classify', command=open_img).pack(pady=10,)
