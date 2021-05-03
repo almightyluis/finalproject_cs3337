@@ -99,5 +99,3 @@ if classes[0]>0.5:
       print(path + " is a dog")
 else:
       print(path + " is a cat")
-
-print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
