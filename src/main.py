@@ -99,4 +99,3 @@ if classes[0]>0.5:
       print(path + " is a dog")
 else:
       print(path + " is a cat")
-
